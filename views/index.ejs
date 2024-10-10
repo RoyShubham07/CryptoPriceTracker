@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRYPTO PRICE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>CRYPTOCURRENCY PRICES</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>CURRENCY</th>
+                    <th>PRICES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for(let currency in price ) {%>
+                    <tr>
+                        <td><%= currency %></td>
+                        <td><%= price[currency].last %></td>
+                    </tr>
+                    <% } %>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
