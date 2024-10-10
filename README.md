@@ -26,4 +26,8 @@ This project is a simple cryptocurrency price-checking web application built usi
 - [EJS](https://ejs.co/) (Embedded JavaScript templating)
 - HTML/CSS with modern styling techniques
 
+## Setup instruction
+
+ 
+
 
