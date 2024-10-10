@@ -30,7 +30,7 @@ This project is a simple cryptocurrency price-checking web application built usi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/cryptocurrency-price-checker.git
+   git clone https://github.com/RoyShubham07/cryptocurrency-price-checker.git
    cd cryptocurrency-price-checker
 
 2. **Install dependencies: Make sure you have Node.js installed, then run:**
@@ -42,6 +42,31 @@ This project is a simple cryptocurrency price-checking web application built usi
 6. **Access the app in your browser:**
    ```bash
    Open http://localhost:3000 in your browser.
+
+## Usage
+Once the application is running, it will display real-time cryptocurrency prices in a table format. You can view current prices and easily refresh the page to get the latest data.
+## Example flow:
+-Open the app, and it will automatically fetch cryptocurrency prices from the Blockchain API.
+
+-View the price of cryptocurrencies such as Bitcoin, Ethereum, and others.
+## API Information
+This project integrates with the Blockchain API to retrieve the latest cryptocurrency prices.
+
+-The API returns the prices of multiple cryptocurrencies in different currencies.
+
+  Example API response:
+
+  ```bash
+
+{
+  "USD": { "last": 45123.45 },
+  "EUR": { "last": 38500.00 }
+}
+```
+## Screenshots
+![Screenshot crypto](https://github.com/user-attachments/assets/3634f9f8-4f49-4835-b78e-c57db48033be)
+
+
 
  
 
