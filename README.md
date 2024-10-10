@@ -34,11 +34,14 @@ This project is a simple cryptocurrency price-checking web application built usi
    cd cryptocurrency-price-checker
 
 2. **Install dependencies: Make sure you have Node.js installed, then run:**
+   ```bash
    npm install
-3. **Run the application: Start the Node.js server with the following command:**
+4. **Run the application: Start the Node.js server with the following command:**
+   ```bash
    npm start
-4. **Access the app in your browser:**
-   pen http://localhost:3000 in your browser.
+6. **Access the app in your browser:**
+   ```bash
+   Open http://localhost:3000 in your browser.
 
  
 
